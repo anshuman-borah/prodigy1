@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Landing Page</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+<body>
+  <!-- navigation bar -->
+  <nav class="navbar">
+    <img src="images\silhouette-man-suit-red-tie-260nw-226739131.webp" alt="logo" id="logo" />
+    <ul id="menu">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <li><a onclick="myHome()">Home</a></li>
+      <li><a onclick="myAbout()">About</a></li>
+      <li><a onclick="myServices()">Services</a></li>
+      <li><a onclick="myContact()">Contact</a></li>
+    </ul>
+    <span class="openbtn" onclick="openNav()">&#9776;</span>
+  </nav>
+
+  <!-- home / hero -->
+  <section id="home" class="hero">
+    <div class="hero-text">
+      <h1>Welcome to Our Landing Page</h1>
+      <p>
+        We create modern, responsive, and user-friendly websites to help your
+        business grow and succeed online.
+      </p>
+      <a href="#about" class="btn">Learn More</a>
+    </div>
+  </section>
+
+  <!-- about -->
+  <section id="about" class="section">
+    <h1 class="heading">About Us</h1>
+    <div class="para">
+      <p>
+        We are a team of passionate developers and designers dedicated to
+        building clean, modern, and responsive web experiences. Our goal is to
+        help businesses and individuals bring their ideas to life on the web.
+      </p>
+      <p>
+        With a focus on simplicity, performance, and user experience, we create
+        solutions that not only look great but also deliver results. Whether
+        you're a startup, a small business, or an enterprise, we’re here to make
+        your digital journey smooth and impactful.
+      </p>
+    </div>
+  </section>
+
+  <!-- services -->
+  <section id="services" class="section dark">
+    <h1 class="heading">Services</h1>
+    <div class="service-cards">
+      <div class="card">🌐 Web Design</div>
+      <div class="card">💻 Web Development</div>
+      <div class="card">📈 SEO Optimization</div>
+      <div class="card">📢 Digital Marketing</div>
+      <div class="card">🤝 Support</div>
+    </div>
+  </section>
+
+  <!-- contact -->
+  <section id="contact" class="section">
+    <h1 class="heading">Get in Touch</h1>
+    <ul class="contact-info">
+      <li><a href="mailto:abc123@gmail.com" id="mail" class="btn">Send Email</a></li>
+      <li><img src="images\phone-solid-svgrepo-com.svg" alt="phone" height="15" /> +45272582</li>
+      <li><img src="images\850748.png" alt="location" height="16" /> 86 adgs, Assam, India</li>
+    </ul>
+  </section>
+
+  <!-- footer -->
+  <footer>
+    <p>&copy; 2025 Gorakhpur, India | All Rights Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
