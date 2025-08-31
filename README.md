@@ -52,7 +52,6 @@ That’s it! 🎉 The landing page will be live on your local machine.
 ## 📸 Preview
 
 ### 💻 Desktop View
-![Desktop Screenshot 1](images\Screenshot 2025-08-31 193540.png)
+![Desktop Screenshot 1](images\Screenshot2.png)
 
-### 📱 Mobile View
-![Desktop Screenshot 2](images\Screenshot 2025-08-31 193606.png)
+![Desktop Screenshot 2](images\Screenshot2.png)
